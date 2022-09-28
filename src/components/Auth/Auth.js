@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
 import './Auth.css';
 import { useState, useContext } from 'react';
-import { UserContext } from '../../context/UserProvider';
+import { UserContext } from '../../context/UserContext';
 import { authUser } from '../../services/auth';
 
 export default function Auth() {
