@@ -10,7 +10,7 @@ export default function Header() {
   const handleLogout = async () => {
     try {
       await signOut();
-      setUser(null)
+      setUser(null);
     } catch (e) {
       // eslint-disable-next-line no-console
       console.error(e.message);
